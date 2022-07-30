@@ -18,8 +18,8 @@
     border-radius: 10px;
     position: sticky;
     top: 10px;
+    height: max-content;
 }
-
 .lsTitle{
     font-size: 20px;
     color: #555;
