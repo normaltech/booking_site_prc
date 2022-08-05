@@ -58,8 +58,7 @@ export const Hotel = () => {
     <div>
       <Navbar />
       <Header type="list" />
-      <div className="hotelContainer">
-        {open && (
+      {open && (
           <div className="slider">
             <FontAwesomeIcon
               icon={faCircleXmark}
@@ -81,6 +80,7 @@ export const Hotel = () => {
             />
           </div>
         )}
+      <div className="hotelContainer">
         <div className="hotelWrapper">
           <button className="bookNow">Reserve or Book Now!</button>
           <h1 className="hotelTitle">Tower Street Apartments</h1>
